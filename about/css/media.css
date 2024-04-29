@@ -1,0 +1,39 @@
+@media screen and (max-width: 1400px)
+{
+	.clients .doc_ref
+	{
+		width: 200px;
+	}
+}
+
+@media screen and (max-width: 1100px)
+{
+	.clients .doc_ref 
+	{
+	    width: 240px;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.clients .doc_ref 
+	{
+	    width: 180px;
+	    min-height: 150px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.clients .doc_ref
+	{
+		width: 100%;
+	}
+
+	.clients
+	{
+		margin-top: 120px !important;
+	}
+}
+
+/*************************/

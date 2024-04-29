@@ -1,0 +1,34 @@
+/***********************************/
+
+.works .back_img
+{
+  display: none !important;
+}
+
+/*.works
+{
+  padding-top: 0px !important;
+}*/
+
+.clients .doc_ref
+{
+  width: 280px;
+  min-height: 200px;
+  padding: 0 15px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.clients .client_img
+{
+  display: block;
+  max-width: 200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.clients .clients_box
+{
+  display: flex;
+  flex-wrap: wrap;
+}

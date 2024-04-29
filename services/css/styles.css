@@ -1,0 +1,52 @@
+.serv .items_box
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 120px;
+}
+
+.serv .items_box.reverse
+{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.serv .serv_item
+{
+    background: #10083D;
+    padding: 50px;
+    width: calc(33.3% - 40px);
+    margin: 0 20px;
+    border-radius: 38px;
+}
+
+.serv .serv_title
+{
+  line-height: 1.3;
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-family: StolzlRegular,sans-serif;
+}
+
+.serv .lett_box
+{
+  width: calc(33.3% - 40px);
+  position: relative;
+  margin: 0 20px;
+}
+
+.serv .img_serv
+{
+  position: absolute;
+  left: 15%;
+  top: 50px;
+  width: 70%;
+  z-index: -1;
+}
+
+.serv .lett_box .title
+{
+  line-height: 1.2;
+  font-size: 45px;
+}
+

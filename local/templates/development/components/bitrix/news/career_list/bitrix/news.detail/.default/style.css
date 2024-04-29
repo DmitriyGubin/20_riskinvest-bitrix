@@ -1,0 +1,82 @@
+.conf
+{
+	min-width: auto !important;
+}
+
+.position .pos_title
+{
+  font-size: 20px;
+  margin: 25px 0;
+  /*font-family: StolzRegular,sans-serif;*/
+}
+
+.position .all
+{
+  max-width: 66.6%;
+}
+
+.position .pos_text
+{
+  line-height: 1.7;
+}
+
+.position .title
+{
+	font-size: 30px;
+	text-transform: none;
+	font-family: Montserrat-Regular,sans-serif;
+}
+
+
+
+
+
+@media screen and (min-width: 1920px)
+{
+	.all
+	{
+		margin-left: 200px;
+		width: 100%;
+		max-width: 810px;
+	}
+
+	.position .pos_title
+	{
+		margin: 40px 0;
+	}
+
+	.position .title
+	{
+		font-size: 34px;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.position .all
+	{
+	  max-width: 100%;
+	}
+
+	.position .pos_text
+	{
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 750px) 
+{
+	.position
+	{
+		margin-top: 130px !important;
+	}
+}
+
+@media (max-width: 567px) 
+{
+  .position .title
+  {
+    font-size: 20px;
+  }
+}
+

@@ -1,0 +1,65 @@
+.career .career_box
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.career .career_item
+{
+  background: #10083B;
+  border-radius: 24px;
+  margin: 0 20px 20px 0;
+  width: 100%;
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: StolzlRegular,sans-serif;
+  padding: 40px 50px;
+}
+
+.career .expeer
+{
+  color: #745BFF;
+  font-weight: 400;
+}
+
+.career .profess
+{
+  font-size: 24px;
+  font-weight: 400;
+  margin: 30px 0;
+  line-height: 1.5;
+}
+
+/************************************/
+
+@media screen and (max-width: 1000px)
+{
+  .career .career_item
+  {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 1000px)
+{
+  .career .career_item
+  {
+    max-width: calc(50% - 10px);
+    margin: 0 0 20px 0;
+  }
+
+  .career .career_box
+  {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 750px)
+{
+  .career .career_item
+  {
+    max-width: 100%;
+  }
+}
